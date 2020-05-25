@@ -7,6 +7,7 @@ datitisev-backup:
             aws: Amazon AWS S3
             dospaces: Digital Ocean Spaces
             dropbox: Dropbox
+            gdrive: Google Drive
             ftp: FTP
             gridfs: GridFS
             rackspace: Rackspace
@@ -22,6 +23,7 @@ datitisev-backup:
             copy: league/flysystem-copy
             dospaces: league/flysystem-aws-s3-v3
             dropbox: spatie/flysystem-dropbox
+            gdrive: nao-pon/flysystem-google-drive
             gridfs: league/flysystem-gridfs
             rackspace: league/flysystem-rackspace
             sftp: league/flysystem-sftp
@@ -82,6 +84,28 @@ datitisev-backup:
                 path-prefix:
                     label: Path prefix
                     description: Optional default path prefix for the files.
+            dropbox:
+                access-token:
+                    label: Access Token
+                    description: Generate an oAuth 2 access token @ https://www.dropbox.com/developers/apps.
+            gdrive:
+                client:
+                    id:
+                        label: Client ID
+                        description: >
+                          Follow the instructions @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md
+                          to create a Google project and retrieve your Client ID & Client Secret.
+                    secret:
+                        label: Client Secret
+                        description: ' '
+                refresh-token:
+                    label: Refresh Token
+                    description: >
+                      Follow the instructions @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md
+                      to retrieve the refresh token for your Google oAuth app.
+                folder:
+                    label: Folder ID
+                    description: https://drive.google.com/drive/u/0/folders/ID
             ftp:
                 host:
                     label: Remote hostname
@@ -111,3 +135,4 @@ datitisev-backup:
         nav:
             label: Backup
             description: Store copies of your forum.
+
