@@ -27,10 +27,15 @@ kilowhat-formulaire:
             submissions: Submissions
             columns:
                 title: Title
+                type: Type
                 accept-submissions: Open
                 allow-modification: Modification
                 submissions: Submissions
                 actions: Actions
+            type-options:
+                standalone: Standalone
+                groups: User profile
+                tags: Discussion fields
         form-create:
             title: New form
             field:
@@ -61,10 +66,6 @@ kilowhat-formulaire:
                 send-confirmation-to-participants: Send confirmation email to participants
                 notify-emails: Send a copy of the data to those comma-separated emails
                 web-confirmation-message: Confirmation message on the web (formatting enabled)
-                email-confirmation-message: Confirmation message via email (formatting enabled, must enable confirmation above)
-                email-notification-message: Notification message via email
-                email-confirmation-title: Title of confirmation email (to participants)
-                email-notification-title: Title of notification email (to notified emails)
             link-options:
                 standalone: Standalone
                 groups: User profile
