@@ -80,7 +80,7 @@ kilowhat-formulaire:
             introduction: >
                 These settings will apply to new discussions that have been created automatically by submitting a tag-connected form.
                 You can use values from the form submission using a braces syntax with the field slug.
-                By default {title} and {content} will be used respectively.
+                By default { title } and { content } will be used respectively.
             submit: Validate changes
             field:
                 title: Discussion title
