@@ -7,16 +7,13 @@ reflar-recache:
     nav:
       desc: Configure caching settings.
     page:
+      heading: Settings
       connection_failed: "Failed to connect."
       switches:
         cache: Enable cache
         query: Enable Query Cache (Redis Only)
         avatar: Enable image optimization
         lazy: Enable lazy loading of images
-      heading: ReCache
-      text: |
-        Configure the currently active caching driver below. Feel free to preconfigure any
-        of the other available drivers and switch over afterwards.
 
       redis:
         label: Redis
