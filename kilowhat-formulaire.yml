@@ -3,9 +3,15 @@ kilowhat-formulaire:
         permissions:
             heading: Formulaire
             heading-advanced: Formulaire (options for third-party extensions)
-            fill: Fill standalone forms
-            seeAnyUser: View user profile submissions
-            seeAnyDiscussion: View discussion fields submissions
+            fill: => kilowhat-formulaire.ref.permissions.fill
+            seeOwnUser: => kilowhat-formulaire.ref.permissions.seeOwnUser
+            seeAnyUser: => kilowhat-formulaire.ref.permissions.seeAnyUser
+            editOwnUser: => kilowhat-formulaire.ref.permissions.editOwnUser
+            editAnyUser: => kilowhat-formulaire.ref.permissions.editAnyUser
+            seeOwnDiscussion: => kilowhat-formulaire.ref.permissions.seeOwnDiscussion
+            seeAnyDiscussion: => kilowhat-formulaire.ref.permissions.seeAnyDiscussion
+            editOwnDiscussion: => kilowhat-formulaire.ref.permissions.editOwnDiscussion
+            editAnyDiscussion: => kilowhat-formulaire.ref.permissions.editAnyDiscussion
             create: Create forms (beta)
             moderate: Moderate all forms
             export: Export submission data
@@ -41,6 +47,19 @@ kilowhat-formulaire:
                 allow-modification: Modification
                 submissions: Submissions
                 actions: Actions
+        global-settings:
+            title: Global permissions
+            admin-only: Only forum administrators can edit global settings
+            permissions:
+                fill: => kilowhat-formulaire.ref.permissions.fill
+                seeOwnUser: => kilowhat-formulaire.ref.permissions.seeOwnUser
+                seeAnyUser: => kilowhat-formulaire.ref.permissions.seeAnyUser
+                editOwnUser: => kilowhat-formulaire.ref.permissions.editOwnUser
+                editAnyUser: => kilowhat-formulaire.ref.permissions.editAnyUser
+                seeOwnDiscussion: => kilowhat-formulaire.ref.permissions.seeOwnDiscussion
+                seeAnyDiscussion: => kilowhat-formulaire.ref.permissions.seeAnyDiscussion
+                editOwnDiscussion: => kilowhat-formulaire.ref.permissions.editOwnDiscussion
+                editAnyDiscussion: => kilowhat-formulaire.ref.permissions.editAnyDiscussion
         form-create:
             title: New form
             field:
@@ -80,7 +99,9 @@ kilowhat-formulaire:
                 Expert mode is enabled.
                 This lets you customize field identifiers and per-field permissions.
                 Make sure you read the documentation about those feature, as you might break things!
-            template: Template
+            section:
+                template: Template
+                permissions: Permissions
             field:
                 link: Special form types
                 title: Public title
@@ -94,6 +115,10 @@ kilowhat-formulaire:
                 send-confirmation-to-participants: Send confirmation email to participants
                 notify-emails: Send a copy of the data to those comma-separated emails
                 web-confirmation-message: Confirmation message on the web (formatting enabled)
+                permission-see-own: See own submission
+                permission-see-any: See any submission
+                permission-edit-own: Edit own submission
+                permission-edit-any: Edit any submission
             link-options:
                 standalone: Standalone
                 groups: User profile
@@ -136,7 +161,8 @@ kilowhat-formulaire:
         permission-controls:
             inherit: Use defaults
             everyone_button: => core.admin.permissions_controls.everyone_button
-            members_button: => core.group.members
+            disabled_members_button: Non-activated and suspended members
+            members_button: Activated members
         template-editor:
             add-field: Add a field
             title: Title
@@ -244,9 +270,6 @@ kilowhat-formulaire:
         formatter-parsing-error: 'Could not parse content: {message}'
         not-allowed-to-fill-field: You are not allowed to change the value of this field
         duplicate-field-key: Key should be unique
-        submission-link-user-invalid: The user doesn't have the necessary group for this form
-        submission-link-discussion-invalid: The discussion does't have the necessary tag for this form
-        submission-link-already-exists: Duplicate entry for link resource
         cannot-change-form-type: You cannot change the type of a form that has existing submissions
         export:
             meta:
@@ -273,3 +296,13 @@ kilowhat-formulaire:
             standalone: Standalone forms
             discussion: Discussion fields
             user: User profile
+        permissions:
+            fill: Fill standalone forms
+            seeOwnUser: View own profile fields
+            seeAnyUser: View any profile fields
+            editOwnUser: Edit own profile fields
+            editAnyUser: Edit any profile fields
+            seeOwnDiscussion: See own discussion fields
+            seeAnyDiscussion: See any discussion fields
+            editOwnDiscussion: Edit own discussion fields
+            editAnyDiscussion: Edit any discussion fields
