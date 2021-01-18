@@ -1,9 +1,14 @@
 blomstra-payments:
     forum:
         payment-options-modal:
-            title: Payment options
+            title: Payment options to gain access to {group}
+            description: >
+                Choose any of the following options to start your
+                access to the group. You will redirected to our payment
+                provider Stripe for payment processing.
         access-portal:
             options: options
+            purchase: purchase
     admin:
         edit-tag:
             select-product: Required product
