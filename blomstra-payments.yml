@@ -4,7 +4,7 @@ blomstra-payments:
             title: Payment options to gain access to {group}
             description: >
                 Choose any of the following options to start your
-                access to the group. You will redirected to our payment
+                access to the group. You will redirected to our paymen
                 provider Stripe for payment processing.
         access-portal:
             options: options
@@ -29,3 +29,4 @@ blomstra-payments:
         settings:
             pk: Publishable (api) key
             sk: Secret (api) key
+            webhook-secret: Webhook secret
