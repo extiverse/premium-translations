@@ -1,5 +1,7 @@
 blomstra-payments:
     forum:
+        tag:
+            require-payment-label: Payment Required
         payment-options-modal:
             title: Payment options to gain access to {group}
             description: >
