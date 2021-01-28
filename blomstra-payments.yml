@@ -1,12 +1,17 @@
 blomstra-payments:
     forum:
+        pay-to-post:
+            payment-required: >
+                This discussion will be published once you completed the payment
+                through our payment provider Stripe. Click purchase to view
+                cost and payment options.
         tag:
             require-payment-label: Payment Required
         payment-options-modal:
             title: Payment options to gain access to {group}
             description: >
                 Choose any of the following options to start your
-                access to the group. You will redirected to our paymen
+                access to the group. You will redirected to our payment
                 provider Stripe for payment processing.
         access-portal:
             options: options
