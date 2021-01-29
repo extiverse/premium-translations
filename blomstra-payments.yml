@@ -52,3 +52,4 @@ blomstra-payments:
             pk: Publishable (api) key
             sk: Secret (api) key
             webhook-secret: Webhook signing secret
+            link-access-portal: Link access portal under user session dropdown
