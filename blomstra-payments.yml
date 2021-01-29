@@ -1,8 +1,8 @@
 blomstra-payments:
     forum:
         pay-to-post:
-            payment-required: >
-                This discussion will be published once you completed the payment
+            purchase_required: >
+                This discussion will be published once you complete the payment
                 through our payment provider Stripe. Click purchase to view
                 cost and payment options.
         tag:
@@ -21,16 +21,16 @@ blomstra-payments:
             select-ptp-product: (PTP) Required product
             select-ptp-product-description: >
                 Selecting a product will require payment of that product
-                for each post in that tag. Pay per post, for instance great
+                for each discussion in that tag. Pay per post, for instance great
                 for advertorials.
-                Create a product in your Stripe dashboard and copy the ID
-                starting <code>prod_</code> into this field.
+                Create a product with a single "one time" price in your Stripe
+                dashboard and copy the ID starting with <code>prod_</code> into this field.
             select-ptv-product: (PTV) Required product
             select-ptv-product-description: >
                 Selecting a product will require payment of that product
                 to permanently gain access to all posts beyond the threshold..
                 Create a product in your Stripe dashboard and copy the ID
-                starting <code>prod_</code> into this field.
+                starting with <code>prod_</code> into this field.
             visible-from: Hide posts from this threshold
             visible-from-description: >
                 The number you specify here defines at which point posts
@@ -43,7 +43,7 @@ blomstra-payments:
                 payment. In case of a subscription access will be revoked
                 automatically after cancellation of the subscription.
                 Create a product in your Stripe dashboard and copy the ID
-                starting <code>prod_</code> into this field.
+                starting with <code>prod_</code> into this field.
         settings:
             pk: Publishable (api) key
             sk: Secret (api) key
