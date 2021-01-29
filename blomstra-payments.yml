@@ -1,6 +1,7 @@
 blomstra-payments:
     forum:
         pay-to-post:
+            purchase-control: Pay to Publish
             purchase: Purchase to Publish
             purchase_required: >
                 This discussion will be published once you complete the payment
