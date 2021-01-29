@@ -17,6 +17,8 @@ blomstra-payments:
         access-portal:
             options: options
             purchase: purchase
+        nav:
+            access_portal: Access portal
     admin:
         edit-tag:
             select-ptp-product: (PTP) Required product
