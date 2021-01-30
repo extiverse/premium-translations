@@ -42,7 +42,7 @@ blomstra-payments:
                 to permanently gain access to all posts beyond the threshold..
                 Create a product in your Stripe dashboard and copy the ID
                 starting with <code>prod_</code> into this field.
-            visible-from: Hide posts from this threshold
+            visible-from: Hide posts at this threshold
             visible-from-description: >
                 The number you specify here defines at which point posts
                 will be hidden to users that haven't paid to access the content.
