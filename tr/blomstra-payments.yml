@@ -1,0 +1,58 @@
+blomstra-payments:
+    forum:
+        pay-to-view:
+            purchase-control: Görüntülemek için Ödeme Yapın
+            purchase-completed: Kilitli değil
+            description: >
+                Ödeme sağlayıcımız Stripe aracılığıyla ödemeyi tamamlayarak bunların kilidini açabilirsiniz.
+        pay-to-post:
+            purchase-control: Yayınlamak için Ödeme Yapın
+            purchase: Yayımlamak için Satın Alın
+            purchase_required: >
+                Ödeme sağlayıcımız Stripe aracılığıyla ödemeyi tamamladığınızda bu tartışma yayımlanacaktır.
+                Maliyet ve ödeme seçeneklerini görüntülemek için satın al butonuna tıklayın.
+        tag:
+            require-payment-label: Ödeme Gerekli
+        payment-options-modal:
+            title: {group} grubuna erişim elde etmek için ödeme seçenekleri
+            description: >
+                Gruba erişiminizi başlatmak için aşağıdaki seçeneklerden herhangi birini seçin.
+                Ödeme işlemi için ödeme sağlayıcımız Stripe'a yönlendirileceksiniz.
+        access-portal:
+            options: seçenekler
+            purchase: satın al
+        nav:
+            access_portal: Erişim portalı
+    admin:
+        edit-tag:
+            select-ptp-product: (PTP) Gerekli ürün
+            select-ptp-product-description: >
+                Selecting a product will require payment of that product
+                for each discussion in that tag. Pay per post, for instance great
+                for advertorials.
+                Create a product with a single "one time" price in your Stripe
+                dashboard and copy the ID starting with <code>prod_</code> into this field.
+            select-ptv-product: (PTV) Gerekli ürün
+            select-ptv-product-description: >
+                Selecting a product will require payment of that product
+                to permanently gain access to all posts beyond the threshold..
+                Create a product in your Stripe dashboard and copy the ID
+                starting with <code>prod_</code> into this field.
+            visible-from: Bu eşikteki gönderileri gizle
+            visible-from-description: >
+                The number you specify here defines at which point posts
+                will be hidden to users that haven't paid to access the content.
+                Use 0 to hide all of them, 1 for the one after the OP.
+        edit-group:
+            select-pta-product: (PTA) Gerekli ürün
+            select-pta-product-description: >
+                Selecting a product will allow access to the group after
+                payment. In case of a subscription access will be revoked
+                automatically after cancellation of the subscription.
+                Create a product in your Stripe dashboard and copy the ID
+                starting with <code>prod_</code> into this field.
+        settings:
+            pk: Yayınlanabilir (api) anahtar
+            sk: Gizli (api) anahtar
+            webhook-secret: Webhook imzalama sırrı
+            link-access-portal: Kullanıcı oturumu açılır menüsü altında bağlantı erişim portalı
