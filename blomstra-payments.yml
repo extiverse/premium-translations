@@ -1,5 +1,10 @@
 blomstra-payments:
     forum:
+        pay-to-view:
+            description: >
+                Posts beyond this point are locked behind a paywall, you can
+                unlock them by completing payment through our payment provider
+                Stripe.
         pay-to-post:
             purchase-control: Pay to Publish
             purchase: Purchase to Publish
