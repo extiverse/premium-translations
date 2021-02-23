@@ -142,6 +142,8 @@ v17development-flarum-support:
       return_to_overview: "Return to ticket overview"
       ticket_overview: "Ticket overview"
       opened_on: "Opened on"
+      ticket_activity: "By {username}, last activity {date}"
+      reminders_sent: "One reminder sent|{count} reminders sent"
 
       status:
         new:
@@ -159,6 +161,7 @@ v17development-flarum-support:
           description: "This ticket has been closed."
           is_closed: "This ticket is closed, when you reply it will reopen. We recommend only to reopen a ticket when the issue hasn't been solved. If it is a new issue, please open a new ticket."
           close_after_posting: "Close ticket after posting"
+          is_auto_closed: "This ticket is closed due to inactivity."
         on_hold:
           title: "On hold"
           description: "This ticket has been set on hold."
@@ -284,7 +287,7 @@ v17development-flarum-support:
       body: |
         Dear {recipient_display_name},
 
-        Recently {replier_display_name} replied to your ticket #{ticket_id}. Unfortunately we did not get a reply from you. Therefore we have closed your ticket.
+        Recently {replier_display_name} replied to your ticket #{ticket_id}. Unfortunately we did not get a reply from you. Your ticket has been automatically closed due to inactivity.
 
         If you still wish to reply, the URL of your ticket is:
         {url}
