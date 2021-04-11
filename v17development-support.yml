@@ -11,6 +11,7 @@ v17development-flarum-support:
     discard: 'Discard'
     reopen: 'reopen'
     support_tickets: "Support tickets"
+    admin_overview: "Open admin overview"
 
     hero:
       help_question: "What can we help you with?"
@@ -78,6 +79,7 @@ v17development-flarum-support:
 
     # Rating
     support_ratings:
+      score: Score
       helful_article: "Was this article helpful?"
       helful_support: "Are you satisfied with how we handled your support ticket?"
       feedback: "Thank you for your review, do you have any feedback?"
@@ -92,6 +94,10 @@ v17development-flarum-support:
         cannot_rate_article: "You cannot rate this article."
         neutral_emoji_disabled: "The neutral emoji has been disabled."
         missing_article_id: "Missing or invalid article ID"
+      
+      switch_sort_score:
+        label: Show articles scoring low to high
+        description: Only show articles that have gotten feedback, sorting on lowest scoring article.
           
     # Modals
     modals:
@@ -135,7 +141,7 @@ v17development-flarum-support:
         [OK] = Yes, save. [CANCEL] = No, don't save
       article_saved: "Article has been saved"
     
-    tickets: 
+    tickets:
       ticket: "Ticket"
       subject: "Subject"
       ticket_does_not_exist: "The requested support ticket does not exist."
@@ -144,6 +150,11 @@ v17development-flarum-support:
       opened_on: "Opened on"
       ticket_activity: "By {username}, last activity {date}"
       reminders_sent: "One reminder sent|{count} reminders sent"
+
+      convert_to_ticket:
+        button: Convert to ticket
+        confirm: Are you sure you want to convert this discussion into a ticket?
+        event: Discussion {ticket_title} has been converted into ticket
 
       status:
         new:
