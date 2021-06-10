@@ -37,7 +37,7 @@ v17development-flarum-support:
       article_hidden: "Article was hidden by {username}"
       article_public: "Article was made public by {username}"
       article_modified: "{username} has edited this article."
-    
+
     search:
       title: Search
       back_to_search_results: "Back to the search results"
@@ -62,7 +62,7 @@ v17development-flarum-support:
       authors: "Authors"
       last_modified: "Last modified at {date}"
       not_found: "Article not found"
-      
+
       share_article:
         title: "Share article"
         perma_link: "Permalink to this article:"
@@ -94,11 +94,11 @@ v17development-flarum-support:
         cannot_rate_article: "You cannot rate this article."
         neutral_emoji_disabled: "The neutral emoji has been disabled."
         missing_article_id: "Missing or invalid article ID"
-      
+
       switch_sort_score:
         label: Show articles scoring low to high
         description: Only show articles that have gotten feedback, sorting on lowest scoring article.
-          
+
     # Modals
     modals:
       audit_log:
@@ -106,7 +106,7 @@ v17development-flarum-support:
         article_created: "Article was created"
         no_more_events: "No more events found"
         loading_auditlog: "Loading audit log"
-      
+
       # Article ratings
       article_ratings:
         title: "Article ratings"
@@ -137,10 +137,10 @@ v17development-flarum-support:
       nothing_to_preview: "Nothing to preview"
       warning_save_changes: |
         WARNING: You are about to leave this page and haven't saved your changes. Do you want to save your changes before leaving?
-      
+
         [OK] = Yes, save. [CANCEL] = No, don't save
       article_saved: "Article has been saved"
-    
+
     tickets:
       ticket: "Ticket"
       subject: "Subject"
@@ -149,7 +149,7 @@ v17development-flarum-support:
       ticket_overview: "Ticket overview"
       opened_on: "Opened on"
       ticket_activity: "By {username}, last activity {date}"
-      reminders_sent: "One reminder sent|{count} reminders sent"
+      reminders_sent: "{count, plural, one {One reminder sent} other {# reminders sent}}"
 
       convert_to_ticket:
         button: Convert to ticket
@@ -229,7 +229,7 @@ v17development-flarum-support:
 
       load_more:
         title: "Load more tickets"
-      
+
       my_tickets:
         title: "My tickets"
         description: "On this page you will be able to find all your private tickets."
@@ -254,7 +254,7 @@ v17development-flarum-support:
         {url}
 
         We are waiting for your reply or until you mark this ticket as resolved.
-      
+
     # Ticket status updated
     ticket_status_update:
       subject: "Ticket #{ticket_id} is marked as {new_status}"
