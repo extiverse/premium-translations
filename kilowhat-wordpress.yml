@@ -15,7 +15,7 @@ kilowhat-wordpress:
                 To block a Flarum user, suspend the account in Flarum.
             enable_sso: Enable SSO integration
             cookie_domain: Cookie Domain
-            cookie_domain_help: Only necessary it's different than Flarum domain
+            cookie_domain_help: Only necessary if different from Flarum domain
             wordpress_login_path: Wordpress login path
             wordpress_login_path_help: Only necessary if you renamed your login endpoint manually or via a plugin
             username_strategy: Username for new users
