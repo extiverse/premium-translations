@@ -1,0 +1,26 @@
+core:
+  forum:
+    index_sort:
+      commentCount_button: No answer
+
+glowingblue-core:
+  forum:
+    tags_page:
+      sub_tags: Subcategories
+      show_more: Show more
+      last_discussion: Last Discussion
+      no_discussions: No discussions yet
+
+  admin:
+    settings:
+      bind-actor: Bind the actor of a request to a globally accessible variable
+      bind-request: Bind the server request object to a globally accessible variable
+      add-tag-slug: Add the slug of the tag to its TagTile on the TagsPage
+      alternative-sub_tags-design: Use alternative design for sub-tags in TagTiles on the TagsPage
+      imporve-tag_tile-footer: Improve the "last posted discussion" footer of the TagTiles on the TagsPage
+
+    permissions:
+      filter_discussions_label: Filter discussions
+
+  lib:
+    ie_warning: Certain functions are not available with your current browser! It is best to use Google Chrome, Firefox, Edge or Safari in their latest version.
