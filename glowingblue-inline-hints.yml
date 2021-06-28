@@ -1,0 +1,29 @@
+glowingblue-inline-hints:
+  admin:
+    nav:
+      label: Inline Hints
+      desc: Hints embedded into the UI to help the user with the onboarding process
+    title: Inline Hints
+    hints:
+      is_active_label: Activate this hint
+      content_label: Hint content
+      is_html_label: Activate HTML
+      help_use_md: "Content format: Markdown"
+      help_use_html: "Content format: HTML"
+      create_discussion:
+        title: How to create a new discussion
+        help_text: This hint will be displayed while a new user starts a new discussion.
+        activity_threshold_label: How many discussions should the user have created until this hint is automatically hidden? (it will always be possible for the user to close the hint before that threshold)
+      create_comment:
+        title: How to reply
+        help_text: This hint will be displayed while a new user writes an comment to an existing post.
+        activity_threshold_label: How many comments should the user have posted until this hint is automatically hidden? (it will always be possible for the user to close the hint before that threshold)
+      profile_page:
+        title: How to setup the profile
+        help_text: This hint will be displayed when a new user visits his own profile page.
+        activity_threshold_label: How many times should the user have visited his own prodile page until this hint is automatically hidden? (it will always be possible for the user to close the hint before that threshold)
+      settings_page:
+        title: How to customize settings
+        help_text: This hint will be displayed when a new user visits his settings page.
+        activity_threshold_label: How many times should the user have visited his settings page until this hint is automatically hidden? (it will always be possible for the user to close the hint before that threshold)
+    help_settings_autosave: These settings are automatically saved while they are edited.
