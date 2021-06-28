@@ -1,0 +1,33 @@
+glowingblue-modmsg:
+  admin:
+    labels:
+      preferences:
+        title: ModMsg Preferences
+        email_cc: Email CC
+        mod_group: Mod Group
+        mods: Mods
+    buttons:
+      save: Save
+    help_texts:
+      description: Configure Mod Group, Mods with activated ModMsg and Email receivers.
+  forum:
+    mod_modal:
+      title: ModMsg
+      label: ModMsg enabled
+      submit_button: Submit
+      change_modmsg_success: ModMsg setting successfully changed.
+      change_modmsg_error: An error occured while trying to set ModMsg setting.
+    modmsg_modal:
+      title: Contact Moderator
+      placeholder: Type your message...
+      submit_button: Submit
+      email_sending_success: Email successfully sent.
+      email_sending_error: An error occured while trying to send email.
+    profile:
+      user_button: Contact Moderator
+      mod_button: ModMsg
+  email:
+    subject: ModMsg Contact Form
+    body: |
+      User {username} has submitted the contact form in forum {forum}:
+      {content}
