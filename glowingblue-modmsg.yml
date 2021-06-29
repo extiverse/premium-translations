@@ -1,15 +1,11 @@
 glowingblue-modmsg:
   admin:
-    labels:
-      preferences:
-        title: ModMsg Preferences
-        email_cc: Email CC
-        mod_group: Mod Group
-        mods: Mods
-    buttons:
-      save: Save
-    help_texts:
-      description: Configure Mod Group, Mods with activated ModMsg and Email receivers.
+    settings:
+      mod_group_label: Mod Group
+      mods_label: Mods
+      email_cc_label: Email CC
+      email_cc_placeholder: Add new CC
+
   forum:
     mod_modal:
       title: ModMsg
@@ -30,4 +26,5 @@ glowingblue-modmsg:
     subject: ModMsg Contact Form
     body: |
       User {username} has submitted the contact form in forum {forum}:
+
       {content}
