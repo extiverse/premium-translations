@@ -1,0 +1,12 @@
+glowingblue-typeform:
+  forum:
+    action_label: Your feedback
+    action_link:
+
+  admin:
+    settings:
+      mode: Popup mode
+      autoOpen: Auto open
+      autoClose: Auto close
+      hideHeaders: Hide headers
+      hideFooter: Hide footer
