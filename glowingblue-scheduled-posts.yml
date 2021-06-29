@@ -1,0 +1,14 @@
+glowingblue-scheduled-posts:
+  admin:
+    permissions:
+      schedule_posts: Schedule posts
+  forum:
+    composer:
+      schedule_post_title: Schedule post
+    modal:
+      schedule_switch_label: Schedule this post
+      schedule_at_label: Publishing date
+      submit: Save
+    dropdown:
+      title: Scheduled posts
+      tooltip: Scheduled posts
