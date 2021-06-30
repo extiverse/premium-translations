@@ -1,0 +1,33 @@
+glowingblue-orell-articles:
+  forum:
+    article:
+      meta_description_text: "{title} | details page"
+      ean: EAN
+      isbn: ISBN
+      author: Author
+      pages: Pages
+      publisher: Publisher
+      category: Category
+      serie: Serie
+      publishedAt: Publication date
+      shopLink: Buy at orellfuessli.ch
+      language: Language
+      description: Description
+      search_author: Search for "{author}"
+      read_more: Read more & info
+      shop_link_template: "{shop_link}"
+    search:
+      header: Artcles
+      all_articles_button: Search all articles for "{query}"
+    articles:
+      empty_text: No articles to show. Try searching for one.
+      no_results_text: No articles were found. Try a new search.
+      search_results: Search results
+      filter_label: Suchen in
+    select_article:
+      title: Select article
+      search_placeholder: "Title, author, keyword, ISBN"
+      search: Search
+      nothing_to_show: No articles to show. Try searching for one.
+      nothing_found: No articles were found. Try a new search.
+      select: Select
