@@ -1,0 +1,17 @@
+glowingblue-quickline:
+  tags:
+    forum:
+      tags_page:
+        tag_tile:
+          subcategories:
+            title: Unterkategorien
+            button_show: Show categories
+            button_hide: Hide categories
+        last_posted_discussion:
+          last_discussion: Last Discussion
+          no_discussions: No discussions yet
+        footer:
+          terms: Community Terms
+          imprint: Imprint
+          agb: Terms and Conditions
+          media: Media
