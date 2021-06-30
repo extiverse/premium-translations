@@ -1,0 +1,72 @@
+glowingblue-orell-rezensionen:
+  forum:
+    header:
+      back_to_reviews_tooltip: "Back to the review list"
+    composer_review:
+      title: Write a new review
+      body_placeholder: "Write a review... (Minimum number of characters: 300)"
+      add_article: Select article
+      rating_label: "Rate the book:"
+      title_placeholder: Review Title
+      submit_button: Post review
+      minimum_char_message: A review needs to have a text with a minimum of 300 characters.
+      needs_rating_message: Please give a rating (number of books).
+      needs_article_message: Please select an article to review.
+      already_reviewed_message: You have already reviewed this article.
+    reviews:
+      nav: Reviews
+      create_review_button: Write a review
+      cannot_create_review_button: Write a review (disabled)
+      from_text: from {username}
+      read_more: Read full review
+    review_page:
+      article_link_label: To the article
+      review_same_article_label: Bewertung schreiben
+      comment: Comment
+      comments: "{comments} Comment|{comments} Comments"
+    discussion_controls:
+      edit_review_button: Edit review
+    edit_review:
+      title: Edit review
+      rating_label: "Rate the book:"
+      submit: Save
+    user:
+      reviews_link: Reviews
+    article_rating:
+      rating_label: "Rating:"
+    review_list:
+      empty_text: No reviews yet
+    article_page:
+      be_first: Schreibe die erste Bewertung
+    index:
+      following:
+        following_reviews_label: => glowingblue-orell-rezensionen.ref.following.filtering_options.reviews
+        section_label: Reviews
+    home:
+      reviews:
+        title: Latest reviews
+        all_link: All reviews
+      reviews_leaderboard:
+        title: Top reviewers
+        sub_title: Last {days} days
+        empty_text: Community members have not yet posted any reviews in the last {days} days.
+      ratings_leaderboard:
+        title: Best rated books
+        sub_title: Last {days} days
+        empty_text: Community members have not yet rated any books in the last {days} days.
+
+  admin:
+    permissions:
+      create_reviews_label: Write reviews
+      edit_reviews_label: Edit reviews
+    settings:
+      following_reviews_label: => glowingblue-orell-rezensionen.ref.following.filtering_options.reviews
+
+  lib:
+    unknown_isbn: The given ISBN (or EAN) is unknown.
+    reviews: "{reviews} Review|{reviews} Reviews"
+
+  ref:
+    following:
+      filtering_options:
+        reviews: Followed Reviews
