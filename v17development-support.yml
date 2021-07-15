@@ -248,7 +248,7 @@ v17development-flarum-support:
       body: |
         Dear {recipient_display_name},
 
-        {replier_display_name} replied to your ticket #{ticket_id} (subject '{subject}').
+        {replier_display_name} replied to your ticket #{ticket_id} (subject "{subject}").
 
         Please use the link below to review the reply:
         {url}
