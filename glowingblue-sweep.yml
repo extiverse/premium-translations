@@ -1,0 +1,26 @@
+glowingblue-sweep:
+  admin:
+    create_button: New rule
+    manual_sweep_button: Manual sweep
+    edit_rule:
+      title: Edit rule
+      name_help: A unique name to identify your rule
+      name_label: Name
+      updated_label: Last edited
+      regex_help: Visit <a>Regex101</a> to formulate your match pattern
+      regex_label: Expression
+      replacement_help: "[Optional] Text to replace the matched content with. Leave blank for no replacement"
+      replacement_label: Replacement
+      highlight_label: Highlight replaced content
+      flag_help: Auto create a flag against matched content for moderator review. Does not apply to user bio content
+      flag_label: Flag
+      highlight_help: Add a CSS class around matched content. Does not apply to discussion title or user bio content
+      helplight_label: Highlight
+      active_help: Turn this rule on or off
+      active_label: Active
+      submit_button: Save rule
+      delete_button: Delete rule
+    create_rule:
+      title: Create rule
+    permissions:
+      bypass: Bypass sweep rules
