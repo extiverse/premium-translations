@@ -1,19 +1,10 @@
 sycho-yt-sync-comments:
   admin:
-    auto_sync_modal:
-      title: Auto Sync Settings
-      description: Select how often to run a sync operation on this import job.
-      submit: => core.ref.save_changes
-      options:
-        daily: Daily
-        every2d: Every 2 Days
-        weekly: Weekly
-        off: OFF
-
     failure_modal:
       title: Failure Message
 
     import_jobs:
+      delete_confirm: Are you sure you want to delete this import job and all related sync operation data ?
       title: Import Jobs
       empty: No Import Jobs Yet. Head to a discussion and start syncing comments! Jobs will then be listed here.
       refresh_warning: This is not a realtime extension, so make sure to refresh after a manual sync after a while.
@@ -26,7 +17,8 @@ sycho-yt-sync-comments:
         video: Video
         auto_sync: "Auto Sync Settings\n{auto_sync}"
         manual_sync: Manual Sync
-        sync_options: Sync Options
+        delete: Delete
+        sync_options: Options
         last_sync:
           title: Last Sync Operation
           created_at: Synced
@@ -43,6 +35,7 @@ sycho-yt-sync-comments:
             success: Successful
             failure: Failed
             unknown: Unknown
+            force_stopped: Force Stopped
 
     permissions:
       sync_video_comments: Sync Video Comments
@@ -51,6 +44,17 @@ sycho-yt-sync-comments:
     settings:
       api_key: YouTube API Key
       api_key_help: Checkout https://developers.google.com/youtube/v3/getting-started#before-you-start for more details.
+      schedule:
+        title: Auto Sync
+        help: Select how often to run all sync operations.
+        options:
+          daily: Daily
+          every2d: Every 2 Days
+          weekly: Weekly
+          off: OFF
+
+      sync_all: Global Sync
+      force_stop: Force Stop All Syncs
 
   forum:
     discussion:
