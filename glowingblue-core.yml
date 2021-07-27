@@ -18,6 +18,7 @@ glowingblue-core:
       add-tag-slug: Add the slug of the tag to its TagTile on the TagsPage
       alternative-sub_tags-design: Use alternative design for sub-tags in TagTiles on the TagsPage
       imporve-tag_tile-footer: Improve the "last posted discussion" footer of the TagTiles on the TagsPage
+      no-index-users: Add `noindex nofollow` meta to user profiles
 
     permissions:
       filter_discussions_label: Filter discussions
