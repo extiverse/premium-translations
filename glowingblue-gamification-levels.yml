@@ -7,7 +7,7 @@ glowingblue-gamification-levels:
       explain_discussion: Each of your posted discussion gives you {points} points.
       explain_comments: Each of your posted comments gives you {points} points.
       explain_upvotes: The difference between your received up and down votes gives you {points} points.
-      explain_besanswer: Each of your posts that has been marked as "Best Answer" gives you {points} points.
+      explain_bestanswer: Each of your posts that has been marked as "Best Answer" gives you {points} points.
       explain_level: When you accumulate {points} points, you reach a new level!
   admin:
     page:
