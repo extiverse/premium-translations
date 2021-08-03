@@ -1,12 +1,23 @@
 glowingblue-typeform:
-  forum:
+  lib:
     action_label: Your feedback
-    action_link:
+    form_id:
+    tooltip:
 
   admin:
     settings:
-      mode: Popup mode
-      autoOpen: Auto open
+      intro:
+        text: Before changing the settings, it's suggested to read the official docs of the Typeform/embed library
+        here: here
+      stringsOptions: Strings to be edit via the fof/linguist extension
+      mode: Modal embeds types
+      open: (Auto) open
+      openValue: (Auto) open value
       autoClose: Auto close
       hideHeaders: Hide headers
       hideFooter: Hide footer
+      form_id:
+        label: Form id
+        help: "*Required for the button to show up"
+      action_label: Action label
+      tooltip: Tooltip (popover only)
