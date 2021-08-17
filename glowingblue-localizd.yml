@@ -1,53 +1,8 @@
-flarum-subscriptions:
-  email:
-    new_post:
-      subject: "[New Post] {title}"
-      body: |
-        Hey {recipient_display_name},
-
-        {poster_display_name} made a post in a discussion you're following: {title}.
-
-        To view the new activity, check out the following link:
-
-        {url}
-
-        ---
-
-        {content}
-
-        ---
-
-        You won't receive any more notifications about this discussion until you're up-to-date.
-
-flarum-mentions:
-  email:
-    post_mentioned:
-      subject: "{replier_display_name} replied to your post in {title}"
-      body: |
-        Hey {recipient_display_name},
-
-        {replier_display_name} replied to your post (#{post_number}) in {title}.
-
-        {url}
-
-        ---
-
-        {content}
-    user_mentioned:
-      subject: "{mentioner_display_name} mentioned you in {title}"
-      body: |
-        Hey {recipient_display_name},
-
-        {mentioner_display_name} mentioned you in a post in {title}.
-
-        {url}
-
-        ---
-
-        {content}
-
 glowingblue-localizd:
   admin:
+    settings:
+      title: Localizd Settings
+      redirect_en: Redirect English to forum default language
     tags:
       edit-modal:
         dyn-key: Set the translations for this tag in {linguist} using these generated keys
@@ -62,4 +17,3 @@ glowingblue-localizd:
 
     fof-terms.signup-legal-text:
     flarum-flags.guidelines_url:
-
