@@ -1,0 +1,4 @@
+glowingblue-solution-views:
+  forum:
+    count:
+      tooltip: This answer has been viewed {count} times
