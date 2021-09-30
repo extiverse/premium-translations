@@ -1,0 +1,5 @@
+glowingblue-welcome-page:
+  admin:
+    settings:
+      select_page: Please select a page to be displayed after a user has registered
+      none: -- None --
