@@ -3,10 +3,15 @@ glowingblue-localizd:
     settings:
       title: Localizd Settings
       redirect_en: Redirect English to forum default language
+      redirect_en_help: Effectively allows you to not provide an English experience within the forum, but allows the English language pack to remain installed (for <code>fof/linguist</code> to recognize the keys, etc)
     tags:
       edit-modal:
-        dyn-key: Set the translations for this tag in {linguist} using these generated keys
         new-key: Save the tag to generate translation keys
+    translation_key:
+      help: "This option is multi-lingual via <a>Linguist</a>."
+      translate: Translate
+      modal_title: Add translations with Linguist
+
   forum:
     forum_description:
     forum_title:
