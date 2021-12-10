@@ -1,6 +1,7 @@
 glowingblue-sweep:
   admin:
     create_button: New rule
+    delete_rule_confirmation: Are you sure you want to delete this rule?
     manual_sweep_button: Manual sweep
     edit_rule:
       title: Edit rule
