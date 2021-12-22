@@ -1,9 +1,5 @@
 glowingblue-inline-hints:
   admin:
-    nav:
-      label: Inline Hints
-      desc: Hints embedded into the UI to help the user with the onboarding process
-    title: Inline Hints
     hints:
       is_active_label: Activate this hint
       content_label: Hint content
