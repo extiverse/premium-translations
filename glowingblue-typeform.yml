@@ -7,7 +7,9 @@ glowingblue-typeform:
   admin:
     settings:
       intro:
-        text: Before changing the settings, it's suggested to read the official docs of the Typeform/embed library
+        text:
+          Before changing the settings, it's suggested to read the official docs of the
+          Typeform/embed library
         here: here
       stringsOptions: Strings to be edit via the fof/linguist extension
       mode: Modal embeds types
@@ -18,6 +20,6 @@ glowingblue-typeform:
       hideFooter: Hide footer
       form_id:
         label: Form id
-        help: "*Required for the button to show up"
+        help: '*Required for the button to show up'
       action_label: Action label
       tooltip: Tooltip (popover only)
