@@ -6,6 +6,6 @@ justoverclock-related-discussions:
     relatedTitle: Title for "Related Discussions"
     relatedTitle-help: Replace the default title for related discussion with your own
   forum:
-    reldiscussion: Suggested Discussions
+    reldiscussion: "Suggested Discussions:"
     participants: Participants
     postnumber: Number of posts
