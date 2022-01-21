@@ -5,6 +5,7 @@ justoverclock-related-discussions:
     DiscussionPageLayout: Show Related Discussions at the bottom of the discussion pages
     relatedTitle: Title for "Related Discussions"
     relatedTitle-help: Replace the default title for related discussion with your own
+    showExcerpt: Show Summary Excerpt
   forum:
     reldiscussion: "Suggested Discussions:"
     participants: Participants
