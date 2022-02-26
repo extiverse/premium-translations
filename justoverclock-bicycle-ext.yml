@@ -1,0 +1,25 @@
+justoverclock-bicycle-ext:
+  admin:
+    my_cool_key: My Cool Key
+
+  forum:
+    saveButton: Save your Bicycles
+    saved: Data saved successfully
+    myBicycles: "My Actual Bicycles:"
+    editBicycles: Edit your Bicycles
+    permissionDenied: "You don't have permission to access this page until your email is verified.
+                       Please check your incoming email anc verify your email access."
+    bicyclePageTitle: Show your Bicycles to the community!
+    bicyclePageText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur delectus eligendi eveniet expedita
+            labore laboriosam molestiae quaerat qui repudiandae, suscipit tempore totam unde voluptatum. Adipisci,
+            asperiores assumenda autem commodi consequatur deserunt facere fugit in ipsum minus, nisi similique tempore
+            tenetur, unde vitae! Ab consequuntur molestias nam rem sunt, voluptate voluptatem?"
+    bicycle1: Bicycle 1
+    bicycle2: Bicycle 2
+    bicycle3: Bicycle 3
+    bicycle4: Bicycle 4
+    bicycle5: Bicycle 5
+    bicycle6: Bicycle 6
+    addMoreElements: Add More Elements
+    shareYourBicycle: Share your bicycles with the community, fill your personal page.
+    verifyFirst: Verify your email first!
