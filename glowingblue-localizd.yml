@@ -8,7 +8,7 @@ glowingblue-localizd:
         English language pack to remain installed (for <code>fof/linguist</code> to recognize the
         keys, etc)
     translation_key:
-      help: 'This option is multi-lingual via <a>Linguist</a>.'
+      help: 'This option is multi-lingual via <b>Localizd</b> + <a>Linguist</a>.'
       translate: Translate
       modal_title: Add translations with Linguist
 
