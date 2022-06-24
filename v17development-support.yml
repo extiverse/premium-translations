@@ -191,6 +191,7 @@ v17development-flarum-support:
         remove_me: "Remove me"
         update_status: "Update ticket status"
         close_ticket: "Close ticket"
+        update_note: "Update private note"
 
       new_tickets_dropdown:
         title: "Ticket Notifications"
@@ -221,6 +222,13 @@ v17development-flarum-support:
         assignees:
           title: "Assignees"
           placeholder: "The status of the ticket"
+
+        private_note:
+          title: "Private notes"
+          info: "Private notes are not visible are for support agents and are not visible to the customer."
+          tip: "TIP: If you're working with multiple agents on a single ticket, add your name and date to a note."
+          placeholder: "Example: Jan 1th 2022 - Agent Name: Purged customer from database"
+          edit_button: "Edit note"
 
       compose_ticket:
         title: "Write a new ticket"
@@ -263,6 +271,15 @@ v17development-flarum-support:
           oldest: Oldest first
           recent_activity: Recent activity
           least_recent: Least recent activity
+
+    notifications:
+      replied_to_ticket:
+        name: Someone replied to my ticket
+        content: => v17development-flarum-support.emails.replied_to_ticket.subject
+
+      ticket_resolved:
+        name: My ticket was resolved
+        content: => v17development-flarum-support.emails.ticket_resolved.subject
 
   emails:
     # Someone replied to the ticket
