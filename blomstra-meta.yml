@@ -1,0 +1,9 @@
+blomstra-meta:
+  forum:
+    images:
+      discussion:
+        comment_count: "{comments, plural, =0 {No posts} one {# post} other {# posts}}"
+        participant_count: "{participants, plural, =0 {No one} one {# participant} other {# participants}}"
+      user:
+        comment_count: "{comments, plural, =0 {No posts} one {# post} other {# posts}}"
+        discussion_count: "{discussions, plural, =0 {No discussions} one {# discussion} other {# discussions}}"
