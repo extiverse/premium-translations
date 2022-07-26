@@ -42,10 +42,10 @@ kilowhat-rich-embeds:
                 Comma-separated list of GitHub organisations that will use the API-powered preview.
                 Use this field to prevent every private repo accessible by the API key to be exposed, to reduce API usage or to only change the embed style of your own org.
                 If left empty, any repo that the API key can access can be previewed.
-            googleApiAuthConfig: Google SDK Auth Config Path
+            googleApiAuthConfig: Google SDK Auth Config Path or JSON
             googleApiAuthConfigHelp: >
                 This setting is used in combination with YouTube and Google Drive settings below.
-                It should contain an absolute path to a JSON config file on the local file system.
+                It should contain an absolute path to the JSON authentication file on the local file system, or the content of that file.
                 If left empty, an API key or service account will automatically be discovered via environment variables by the Google API SDK.
             googleApiKey: Google SDK API key
             googleApiKeyHelp: >
