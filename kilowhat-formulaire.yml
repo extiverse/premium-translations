@@ -55,6 +55,7 @@ kilowhat-formulaire:
                 title: Title
                 accept-submissions: Open
                 allow-modification: Modification
+                enabled: Enabled
                 submissions: Submissions
                 actions: Actions
         global-settings:
@@ -93,6 +94,8 @@ kilowhat-formulaire:
                 create: Create only
                 edit: Edit only
                 both: Create and edit
+                enabled: Enabled
+                disabled: Draft
             controls: Controls
             template-export: Template import/export
             enable-expert-mode: Enable expert mode
@@ -114,7 +117,7 @@ kilowhat-formulaire:
                     This message can appear even if your settings are correct.
                 linked-form-is-draft: >
                     This form is currently in draft mode.
-                    Enable "accept new submissions" for the fields to appear on the forum.
+                    Enable under "Access" for the fields to appear on the forum.
                 auto-link-permission-warning: >
                     Forms with "automatically create discussions" option use the global fill permission when accessed standalone.
             expert-mode-warning: >
@@ -136,6 +139,7 @@ kilowhat-formulaire:
                     Submissions will automatically create and connect with new discussions.
                 accept-submissions: Accept new submissions
                 allow-modification: Allow users to edit their existing submissions
+                enable: Enable
                 max-submissions: Max submissions (leave blank for unlimited)
                 send-confirmation-to-participants: Send confirmation email to participants
                 notify-emails: Send a copy of the data to those comma-separated emails
@@ -312,6 +316,9 @@ kilowhat-formulaire:
                 excel-date: (EXCEL DATE)
                 boolean-true: TRUE
                 boolean-false: FALSE
+        discussion-submission:
+            empty: No data yet
+            edit: Edit
 
     api:
         formatter-parsing-error: 'Could not parse content: {message}'
