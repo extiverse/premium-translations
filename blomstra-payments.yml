@@ -1,18 +1,8 @@
-core:
-    forum:
-        index_sort:
-            mostBacked_button: Most backed
-
 blomstra-payments:
     forum:
-        accept-terms-modal:
-            accept_label: I have read and accept the <link>payment terms</link>.
-            continue_button: Continue Payment
-            title: Accept Terms
         stripe:
             interval_once: once
         subscription-card:
-            bounty: Bounty
             ptv: Paid to view
             pta: Paid to access
             ptb: Paid to bump
@@ -46,7 +36,7 @@ blomstra-payments:
             checkout-control: Checkout
             description: "Select your amount for supporting \"{subject}\" or choose a custom amount."
         backers-widget:
-            label: "{sum} backed"
+            label: "{sum} pledged"
             none: No backers yet.
         tag:
             require-payment-label: Payment Required
@@ -63,6 +53,10 @@ blomstra-payments:
         nav:
             access_portal: Access portal
             user_subscriptions: Subscriptions
+        exceptions:
+            out-of-bounds-amount:
+                min: A payment of {amount} is not allowed, {min} is the lowest amount.
+                max: A payment of {amount} is not allowed, {max} is the highest amount.
     admin:
         edit-tag:
             select-ptp-product: (PTP) Required product
@@ -109,7 +103,6 @@ blomstra-payments:
             sk: Secret (api) key
             webhook-secret: Webhook signing secret
             link-access-portal: Link access portal under user session dropdown
-            link-to-terms: Payment Terms URL
 
         permission:
             enable-bounties: Enable bounties
