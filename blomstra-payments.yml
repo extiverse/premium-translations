@@ -113,6 +113,7 @@ blomstra-payments:
                 Create a product in your Stripe dashboard and copy the ID
                 starting with <code>prod_</code> into this field.
         settings:
+            assign-bounty-tag-id: Tag to assign to discussion after the first submitted bounty
             pk: Publishable (api) key
             sk: Secret (api) key
             webhook-secret: Webhook signing secret
