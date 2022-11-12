@@ -375,6 +375,7 @@ kilowhat-formulaire:
         edit: Edit
         footer: Sent from {title}
         sub-entries: '{count} entries'
+        no-answer: No answer
 
     ref:
         manager: Forms manager
