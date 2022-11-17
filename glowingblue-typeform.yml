@@ -16,6 +16,13 @@ glowingblue-typeform:
       open: (Auto) open
       openValue: (Auto) open value
       autoClose: Auto close
+      chat: Enable chat styled interface
+      buttonColor: Button color (for popover)
+      notificationDays:
+        Notification days (display red notification dot, hide for given number of days since popover
+        is open (popover only))
+      closedDelay: Number of days after which the survey opens automatically (when user cancelled it)
+      submittedDelay: Number of days after which the survey opens automatically (when user submitted it)
       hideHeaders: Hide headers
       hideFooter: Hide footer
       form_id:
