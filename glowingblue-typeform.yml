@@ -25,6 +25,7 @@ glowingblue-typeform:
       submittedDelay: Number of days after which the survey opens automatically (when user submitted it)
       hideHeaders: Hide headers
       hideFooter: Hide footer
+      icon: Icon (URL to resource, text or HTML)
       form_id:
         label: Form id
         help: '*Required for the button to show up'
