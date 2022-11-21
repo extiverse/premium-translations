@@ -100,7 +100,7 @@ blomstra-payments:
                 If enabled, not just the discussion author can bump discussions
                 with a payment.
             select-bounty-product: (Bounty) Required product
-            select-bounty-description: >
+            select-bounty-product-description: >
                 Select a product will set it up for bounties. The product can only
                 have one Price with model: "Custom chooses price". Copy the ID of the product
                 starting with <code>prod_</code> into this field.
