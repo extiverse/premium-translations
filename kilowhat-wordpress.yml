@@ -143,6 +143,10 @@ kilowhat-wordpress:
             read_more: Read more
         embed:
             title: Comments
+        embed-link-modal:
+            title: Exit comment thread
+            message: The page is trying to redirect you to {href}
+            open: Open link
 
     api:
         blocked_actions:
