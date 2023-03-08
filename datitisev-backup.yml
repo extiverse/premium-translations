@@ -87,7 +87,7 @@ datitisev-backup:
             dropbox:
                 access-token:
                     label: Access Token
-                    description: Generate an oAuth 2 access token @ https://www.dropbox.com/developers/apps.
+                    description: Generate an oAuth 2 access token @ https://www.dropbox.com/developers/apps. Give the app the "files.metadata.write" permission before generating your token.
             gdrive:
                 client:
                     id:
