@@ -3,7 +3,7 @@ justoverclock-steam-api:
     steamApiKey: Steam Api Key
     steamApiKey-help: Get your FREE api key on https://steamcommunity.com/dev/apikey
   forum:
-    steamId: Steam Profile ID
+    steamId: Steam Profile ID or vanity name
     steamIdSaved: Steam id saved successfully
     LatestGamesPlayed: Latest Games Played
     statusOffline: Offline
@@ -20,3 +20,5 @@ justoverclock-steam-api:
     visitProfile: "Visit Profile"
     realName: "Real Name: "
     accountCreated: "Member since: "
+    noGamesAvailable: "No games available for this user"
+    noCountry: "Not filled"
