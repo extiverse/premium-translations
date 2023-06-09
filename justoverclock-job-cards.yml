@@ -2,6 +2,7 @@ justoverclock-job-cards:
   admin:
     my_cool_key: My Cool Key
   forum:
+    jobProfile: Job Profile
     saveBtn: Save
     jobFormTitle: Job Card
     formSaved: Form saved successfully
