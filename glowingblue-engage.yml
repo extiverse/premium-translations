@@ -10,17 +10,21 @@ glowingblue-engage:
       none: No activity state configured yet
       registered: Registered (e-mail not confirmed)
       active: Active
-      inactive: "{count, plural, one {Inactive for # month} other {Inactive for # months}}"
+      inactive: '{count, plural, one {Inactive for # month} other {Inactive for # months}}'
       add_btn: Create new activity state
-      delete_confirmation: Are you sure you want to delete this activity state? This action cannot be undone.
-      delete_confirmation2: After deleting this activity state, it is possible that some users may receive emails they should not receive. Do you still want to delete this activity state?
+      delete_confirmation:
+        Are you sure you want to delete this activity state? This action cannot be undone.
+      delete_confirmation2:
+        After deleting this activity state, it is possible that some users may receive emails they
+        should not receive. Do you still want to delete this activity state?
     edit:
       title: Edit activity state
       title_create: Create activity state
       months_label: Months until the user gets this inactive state
       subject_label: E-mail Subject
       embedded_content_label: Embed community discussions
-      personalized_content_label: Embed personalized community discussions (only for users with at least one post)
+      personalized_content_label:
+        Embed personalized community discussions (only for users with at least one post)
       email_text: E-mail content
       body_label: E-mail Body
       body_placeholder: |
@@ -28,16 +32,19 @@ glowingblue-engage:
 
         We have an encouraging message from the {forum}.
       body_for_content_label: Body for e-mails with embedded community discussions
-      text_hint_pt1: "The e-mail body can be written using Markdown. Here is "
+      text_hint_pt1: 'The e-mail body can be written using Markdown. Here is '
       text_hint_link: a link
-      text_hint_pt2: " that describes how Markdown works."
-      text_hint_pt3: "You have also access to the username and the title of the forum. Use the following variables in your text to have them replaced by the corresponding values when the e-mail is sent:"
+      text_hint_pt2: ' that describes how Markdown works.'
+      text_hint_pt3:
+        'You have also access to the username and the title of the forum. Use the following
+        variables in your text to have them replaced by the corresponding values when the e-mail is
+        sent:'
       submit_button: Save
       delete_button: Delete
     scheduling:
       header: Daily re-engagement routine scheduling
       label: Time when the routine should be executed (UTC)
-      placeholder: "Example: 04:00"
+      placeholder: 'Example: 04:00'
       error: "The entered value isn't in the correct format, should be HH:MM"
     logs:
       header: Last re-engagement routine
@@ -47,3 +54,6 @@ glowingblue-engage:
 
   lib:
     unsubscribed: You have been successfully unsubscribed.
+    unsubscribe:
+      'If you are not interested in receiving these emails, you can <a style="color: #989EA6;
+      font-weight: normal; " href="{unsubscribeUrl}">unsubscribe</a>.'
