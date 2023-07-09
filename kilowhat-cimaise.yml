@@ -183,6 +183,16 @@ kilowhat-cimaise:
             sticker-label: Label
             sticker-url: URL
             sticker-add: Add sticker
+        status:
+            pictures:
+                section: Pictures
+                drafts: "({count} drafts)"
+            storage:
+                section: Storage (estimated)
+                originals: "Originals: {size}"
+                conversions: "Conversions: {size}"
+            refresh: Refresh
+            loading: Loading...
 
     api:
         post-edit:
