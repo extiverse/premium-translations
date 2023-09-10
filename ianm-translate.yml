@@ -29,6 +29,7 @@ ianm-translate:
         
       provider: Translation provider
       readme-info: See the README documention for extended information.
+      readme-none: No additional settings are required for this driver.
 
   forum:
     unknown-language: "[not detected]"
@@ -39,12 +40,14 @@ ianm-translate:
         close-translation: Close translation
         translated-header: "AI translation from {from} to {to}"
         translated-updated: "Translation last updated {time} using {provider}"
+      title:
+        detected-language: "{postLang}"
     user:
       settings:
         heading: Translation
         source-language:
-          help: When disabled, only posts written in a language other than the current forum language will be labelled. To label all posts with their detected language, enable this setting.
-          label: Always show post language
+          help: When disabled, only translatable content written in a language other than the current forum language will be labelled. To label all content with it's detected language, enable this setting.
+          label: Always show language
   lib:
     providers:
       deepl: DeepL
